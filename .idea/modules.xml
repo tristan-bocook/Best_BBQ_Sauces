@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Best_BBQ_Sauces.iml" filepath="$PROJECT_DIR$/.idea/Best_BBQ_Sauces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../learn-arcade-work/Lab 05 - Loopy Lab/.idea/Lab 05 - Loopy Lab.iml" filepath="$PROJECT_DIR$/../learn-arcade-work/Lab 05 - Loopy Lab/.idea/Lab 05 - Loopy Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../learn-arcade-work/Testing/.idea/Testing.iml" filepath="$PROJECT_DIR$/../learn-arcade-work/Testing/.idea/Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bbqsauce/publichtml/.idea/publichtml.iml" filepath="$PROJECT_DIR$/../bbqsauce/publichtml/.idea/publichtml.iml" />
+    </modules>
+  </component>
+</project>

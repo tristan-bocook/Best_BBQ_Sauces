@@ -1,0 +1,21 @@
+.p {
+    font-size: 14px;
+    text-align: center;
+}
+.intro {
+    background-color: #a66b38;
+    border-style: solid;
+}
+.rating {
+    text-align:center;
+    background-color: #d9b166;
+    border-style: solid;
+}
+.review {
+    text-align:center;
+    background-color: #f2e085;
+    border-style: double;
+}
+.active {
+    background-color: #4caf50;
+}
