@@ -6,143 +6,79 @@
 
 		<title>Best BBQ Sauces</title>
 
-         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+          <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <style>
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-            #bbqjar {
-                width: 300px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
 
-            #michaeljackson {
-                  width: 300px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
 
-            #muhammadali {
-                width: 300px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            #townlocal {
-                width: 300px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            #review_title {
-                text-align:center;
-                font-size: 40px;
-                background-color: #c6e8a4;
-                border-style: solid;
-            }
-
-            #logo {
-                     width: 250px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: #a66b38;
-                position: fixed;
-                top: 0;
-                width: 100%;
-            }
-
-            li {
-                float: left;
-                border-right: 1px solid #bbb;
-            }
-
-            li:last-child {
-                border-right: none;
-            }
-
-            li a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
-            li a:hover:not(active) {
-                background-color: #111;
-            }
-
-            table {
-                border-collapse: collapse;
-                width: 100%;
-            }
-
-            th, td {
-                text-align: left;
-                padding: 8px;
-            }
-
-            tr {
-                background-color: #fff
-            }
-
-            th {
-                background-color: #4CAF50;
-                color: white;
-            }
-        </style>
 
 	</head>
 
-<body style="background-color: #59281d">
+<body>
 
  <header>
-      <!-- Nav section -->
-        <nav>
-             <ul>
-                 <li>
-                     <a class="active" href="index.html">Home Page</a>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Dad's BBQ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav mr-auto">
+                 <li class="nav-item active">
+                     <a class="navbar-brand" href="index.html">Home <span class="sr-only">(current)</span></a>
+
                  </li>
 
-                 <li>
-                     <a href="about.html">About</a>
+                 <li class="nav-item">
+                     <a class="nav-link" href="about.html">About</a>
                  </li>
 
-                 <li>
-                     <a href="ourbbqsauces.html">Our BBQ Sauce Flavors and Backstory</a>
+                 <li class="nav-item">
+                     <a class="nav-link" href="ourbbqsauces.html">Origin</a>
                  </li>
 
-                 <li>
-                     <a href="assignment1.html">Herbs and Spices</a>
+                 <li class="nav-item">
+                     <a class="nav-link" href="assignment1.html">Herbs and Spices</a>
                  </li>
 
-                 <li>
-                     <a href="prices.html">Prices</a>
+                 <li class="nav-item">
+                     <a class="nav-link" href="prices.html">Prices</a>
                  </li>
 
-                 <li>
-                     <a href="merchandise.html">Merchandise</a>
+                 <li class="nav-item">
+                     <a class="nav-link" href="merchandise.html">Merchandise</a>
                  </li>
              </ul>
+            </div>
         </nav>
  </header>
 
-		<h1 style="text-align:center;font-size: 36px;background-color: #8c5c51">Dad's BBQ</h1>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Howdy!</strong> Dad's BBQ is home to some of the best sauces around.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 
-		<p style="background-color: #8c5c51; text-align: center;">Welcome to the Dad's BBQ Website!<p>
+<div class="container">
+		<h1>Dad's BBQ</h1>
+
+		<p>Welcome to the Dad's BBQ Website!</p>
 
 		<img id="logo" src="dadsbbq.jpg" alt="Best_BBQ_Sauces"/>
+        <p></p>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
 
 		<p class="intro">Welcome to the Dad's BBQ. On this website we will be explaining our variation of products and
      what we sell as a company. We have a variety of sauces and how our products are made in this process. We want to
@@ -152,34 +88,68 @@
  <p class="intro">We were established in the 1950's and have been a family owned company started by our own grandfathers that seeked
      out the best BBQ sauces in the country. Our goal as a company is to give you a product that will taste good and is
      affordable as well. We guarantee you will love this product or your money back guaranteed.</p>
+        </div>
+     </div>
+
 
 	<img id="bbqjar" src="homemade_bbq_sauce_2.jpg" alt="Best_BBQ_Sauces"/>
 
-<p class="intro">Shown above was one of the first jars of many that were produced and sold on our shelves back in the 1950's. Although,
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <p class="intro">Shown above was one of the first jars of many that were produced and sold on our shelves back in the 1950's. Although,
 70 years later and our wonderful business is stilling booming. If you'd like to try our amazing sauce then check out our
 store where prices and sizes are labelled. When you try our delectable barbecue sauce you'll be craving more, but don't
 take our word for it!</p>
+        </div>
+    </div>
+
+ <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" >
+ <a href="prices.html" class="btn btn-primary">Press me to go to Flavor town!</a>
+ </button>
+ <p></p>
 
 <h1 id="review_title">Customer reviews</h1>
 
-    <img id="michaeljackson" src="michael_jackson.jpg" alt="Best_BBQ_Sauces"/>
+      <div class="row">
+            <div class="mycolor col-4">
+    <img style="width: 300px;height: 300px;" id="michaeljackson" src="michael_jackson.jpg" alt="Best_BBQ_Sauces"/>
+            </div>
+
+            <div class="mycolor col-8">
         <h2 class="rating">5/5 I would definitely make a song about this</h2>
         <p class="review">I am Michael Jackson and I have never had a sauce as good as the one sold by the boys in at Dad's BBQ.
             Those boys sure know their sauce hee hee</p>
+            </div>
+      </div>
 
-    <img id="muhammadali" src="muhammad_ali.jpg" alt="Best_BBQ_Sauces"/>
+      <div class="row">
+            <div class="mycolor col-4">
+    <img style="width: 300px;height: 300px;" id="muhammadali" src="muhammad_ali.jpg" alt="Best_BBQ_Sauces"/>
+            </div>
+
+            <div class="mycolor col-8">
         <h2 class="rating">6/5 I would have another round with this knockout of flavor</h2>
         <p class="review">I didn't believe Michael Jackson had tried and liked this sauce so I figured I needed a go around with this supposed
         one of kind sauces and let me tell you I was impressed. I will admit that when I was backed in a corner I thought about
         this wonder sauce and how I needed to try it again a fire rose within me. Great sauce keep it up boys!</p>
+            </div>
+      </div>
 
-    <img id="townlocal" src="mary_sue.jpg" alt="Best_BBQ_Sauces"/>
+     <div class="row">
+            <div class="mycolor col-4">
+    <img style="width: 300px;height: 200px;" id="townlocal" src="mary_sue.jpg" alt="Best_BBQ_Sauces"/>
+            </div>
+
+            <div class="mycolor col-8">
         <h2 class="rating">5/5 would recommend this to my family</h2>
         <p class="review">I don't normally try barbecue sauces but I heard two celebrities enjoyed Dad's BBQ line of sauce and I had try some for myself. The sauces are fantastic and brings many memories of
         barbecues my family threw when I was a little girl. I speak on behalf of the other locals and people who've had the
         sauce: You need to try this!</p>
+            </div>
+     </div>
 
-<table>
+    <p></p>
+<table class="table table-bordered">
     <tr>
         <th>Days</th>
         <th>Hours</th>
@@ -196,7 +166,12 @@ take our word for it!</p>
     </tr>
 </table>
 
-<footer style="text-align:center;color: white;">Copyright 2020 Dad's BBQ &copy</footer>
+<footer>Copyright 2020 Dad's BBQ &copy</footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 

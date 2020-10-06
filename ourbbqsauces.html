@@ -1,9 +1,19 @@
-<!-- Ben Rupe-->
+<!-- Tristan-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
         <title>Our Homemade BBQ Sauces</title>
+             <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
 
 </head>
 
@@ -11,35 +21,45 @@
 
 <header>
          <!-- Nav section -->
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home Page</a>
-            </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Dad's BBQ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <li>
-                <a href="about.html">About</a>
-            </li>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <li>
-                <a href="ourbbqsauces.html">Our BBQ Sauce Flavors and Backstory</a>
-            </li>
+              <ul class="navbar-nav mr-auto">
+                 <li class="nav-item active">
+                     <a class="navbar-brand" href="index.html">Home <span class="sr-only">(current)</span></a>
 
-            <li>
-                <a href="assignment1.html">Herbs and Spices</a>
-            </li>
+                 </li>
 
-            <li>
-                <a href="prices.html">Prices</a>
-            </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="about.html">About</a>
+                 </li>
 
-            <li>
-                <a href="merchandise.html">Merchandise</a>
-            </li>
-        </ul>
-    </nav>
+                 <li class="nav-item">
+                     <a class="nav-link" href="ourbbqsauces.html">Origin</a>
+                 </li>
+
+                 <li class="nav-item">
+                     <a class="nav-link" href="assignment1.html">Herbs and Spices</a>
+                 </li>
+
+                 <li class="nav-item">
+                     <a class="nav-link" href="prices.html">Prices</a>
+                 </li>
+
+                 <li class="nav-item">
+                     <a class="nav-link" href="merchandise.html">Merchandise</a>
+                 </li>
+             </ul>
+            </div>
+        </nav>
 </header>
 
+<div class="container">
 
 <H1>Our Flavors</H1>
 
@@ -68,10 +88,16 @@
 <p> Our North Carolina Reaper is our unique blend of ghost peppers mixed with herbs and spices. This BBQ is mixed with
     specific herbs and spices that are native to North Carolina to give it that authentic North carolina feeling. This
     one will give you enough and perfect blend between sweet and spicy.The perfect blend for people who want the just
-    right amount of kick to it and still want that sweet taste.<p>
+    right amount of kick to it and still want that sweet taste.</p>
 <img src= "north_carolina.jpg" alt="Best_BBQ_Sauces"/>
 
 
+<footer>Copyright 2020 Dad's BBQ &copy</footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 </html>
